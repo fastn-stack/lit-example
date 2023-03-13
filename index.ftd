@@ -1,8 +1,16 @@
 -- import: fastn-stack.github.io/lit-example/assets
 
+-- string $name: FifthTry
+-- ftd.text: $name
+role: $inherited.types.heading-medium
+color: green
+padding.px: 20
+
 -- learn-lit:
+$name: $name
 
 -- web-component learn-lit:
+string $name:
 js: $assets.files.script.js
 
 -- end: learn-lit
